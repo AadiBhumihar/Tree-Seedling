@@ -52,6 +52,6 @@ And final layer is of 12 node because of 12 class and activation function of 'So
 and in this we dont train only first 25 layers of our model and after this we re-train all the layer of VGC16 and our neural network model.
 the last convolutional block of the VGG16 model alongside the top-level classifier.
 Then Fit Our Model using mini-batch Sochastic Gradient Descent using rmsprop optimizer.
-But Last two method require High Memory Resource Requirment and due to limited resource i cant run them.
+But Last two method require High Memory Resource Requirment and run on gpu
 
 
